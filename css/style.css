@@ -1,0 +1,91 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color: #1B1B1B;
+	margin: 10px;
+}
+#wrapper
+{
+	border: 1px solid green;
+	border-left: 2px solid green;
+	border-bottom: 2px solid green;
+	width: 50%;
+	
+	background-color: rgb(43,43,43);
+	margin: 0 auto;
+	padding: 10px;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+    color: #fff;
+    font-size: 110%;
+}
+#messages
+{
+	border: 1px solid #777;
+    background: rgba(29,51,99,0.3);
+	height: 30vh;
+	margin-top: 5px;
+	padding: 5px;
+	overflow: auto;
+	font-weight: 100;
+	text-align: left;
+    color: #fff;
+}
+#shoutbox
+{
+	text-align: center;
+}
+#wrapper textarea
+{
+    background: #ccc;
+	margin: 5px;
+	font-size: 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 80%;
+	height: 20vh;
+	padding: 3px;
+	border: 1px solid #777;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+#nick
+{
+    width: 30%;
+    height: 3vh;
+    background: #ccc;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 5px;
+	border: 1px solid #777;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+#wrapper input
+{
+    background: #ccc;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 5px;
+	border: 1px solid #777;
+}
+
+#submitButton
+{
+    width: 50%;
+    height: 3vh;
+}
+
+@media only screen and (orientation: landscape)
+{
+    #wrapper textarea
+    {
+        height: 40vh;
+    }
+}
+
+
